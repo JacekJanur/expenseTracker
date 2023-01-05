@@ -14,6 +14,7 @@
 		EF5FB9502967486100895FF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB94F2967486100895FF1 /* Extensions.swift */; };
 		EF5FB95229674AEC00895FF1 /* TransationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB95129674AEC00895FF1 /* TransationModel.swift */; };
 		EF5FB95429674BC700895FF1 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB95329674BC700895FF1 /* PreviewData.swift */; };
+		EF5FB95829674C9800895FF1 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB95729674C9800895FF1 /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EF5FB94F2967486100895FF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EF5FB95129674AEC00895FF1 /* TransationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransationModel.swift; sourceTree = "<group>"; };
 		EF5FB95329674BC700895FF1 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		EF5FB95729674C9800895FF1 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF5FB9472967468300895FF1 /* Preview Content */,
 				EF5FB94F2967486100895FF1 /* Extensions.swift */,
 				EF5FB95129674AEC00895FF1 /* TransationModel.swift */,
+				EF5FB95729674C9800895FF1 /* TransactionRow.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				EF5FB95429674BC700895FF1 /* PreviewData.swift in Sources */,
 				EF5FB95229674AEC00895FF1 /* TransationModel.swift in Sources */,
 				EF5FB9442967468200895FF1 /* ContentView.swift in Sources */,
+				EF5FB95829674C9800895FF1 /* TransactionRow.swift in Sources */,
 				EF5FB9502967486100895FF1 /* Extensions.swift in Sources */,
 				EF5FB9422967468200895FF1 /* ExpenseTrackerApp.swift in Sources */,
 			);

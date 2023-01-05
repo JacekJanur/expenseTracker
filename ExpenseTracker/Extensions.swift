@@ -14,3 +14,4 @@ extension Color {
     static let icon = Color("Icon")
     static let systemBackground = Color(uiColor: .systemBackground)
 }
+
