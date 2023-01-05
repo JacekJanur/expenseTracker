@@ -11,6 +11,9 @@
 		EF5FB9442967468200895FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB9432967468200895FF1 /* ContentView.swift */; };
 		EF5FB9462967468300895FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5FB9452967468300895FF1 /* Assets.xcassets */; };
 		EF5FB9492967468300895FF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5FB9482967468300895FF1 /* Preview Assets.xcassets */; };
+		EF5FB9502967486100895FF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB94F2967486100895FF1 /* Extensions.swift */; };
+		EF5FB95229674AEC00895FF1 /* TransationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB95129674AEC00895FF1 /* TransationModel.swift */; };
+		EF5FB95429674BC700895FF1 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FB95329674BC700895FF1 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EF5FB9432967468200895FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF5FB9452967468300895FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5FB9482967468300895FF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF5FB94F2967486100895FF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF5FB95129674AEC00895FF1 /* TransationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransationModel.swift; sourceTree = "<group>"; };
+		EF5FB95329674BC700895FF1 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 				EF5FB9432967468200895FF1 /* ContentView.swift */,
 				EF5FB9452967468300895FF1 /* Assets.xcassets */,
 				EF5FB9472967468300895FF1 /* Preview Content */,
+				EF5FB94F2967486100895FF1 /* Extensions.swift */,
+				EF5FB95129674AEC00895FF1 /* TransationModel.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -63,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				EF5FB9482967468300895FF1 /* Preview Assets.xcassets */,
+				EF5FB95329674BC700895FF1 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5FB95429674BC700895FF1 /* PreviewData.swift in Sources */,
+				EF5FB95229674AEC00895FF1 /* TransationModel.swift in Sources */,
 				EF5FB9442967468200895FF1 /* ContentView.swift in Sources */,
+				EF5FB9502967486100895FF1 /* Extensions.swift in Sources */,
 				EF5FB9422967468200895FF1 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
