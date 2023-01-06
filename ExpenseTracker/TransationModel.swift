@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Transaction: Identifiable{
+struct Transaction: Identifiable, Decodable{
     let id: Int
     let date: String
-    let instutution: String
+    let institution: String
     let account: String
     var merchant: String
     let amount: Double
